@@ -24,8 +24,7 @@ export class Counter extends Component {
     // this.state.count = this.state.count + 1;   // this will not work, on console you will get the incremented number but in page source its not increasing
     this.setState({
         count: this.state.count + 1
-   })
-    console.log(this.state.count);
+   }, () => {console.log(this.state.count)})
    }
 
 
