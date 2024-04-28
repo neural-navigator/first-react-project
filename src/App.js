@@ -9,10 +9,14 @@
 // import EventHandling from "./EventHandling";
 // import ParentToChild from "./ParentToChild";
 import UserGreeting from "./UserGreeting";
+import NameList from "./NameList";
 
 function App() {
   return (
-    <UserGreeting />
+    <div>
+    {/* <UserGreeting /> */}
+    <NameList />
+    </div>
     // <div> 
     //   <div><Navbar /></div>
     // <h1>Hello World!</h1>
